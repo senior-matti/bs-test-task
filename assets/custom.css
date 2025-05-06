@@ -1,0 +1,111 @@
+/* //////////////////// Fonts: //////////////////// */
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('./Montserrat-Regular.woff2') format('woff2'),
+         url('./Montserrat-Regular.woff') format('woff');
+    /* font-weight: normal;
+    font-style: normal; */
+  }
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url('./Montserrat-Medium.woff2') format('woff2'),
+         url('./Montserrat-Medium.woff') format('woff');
+    /* font-weight: normal;
+    font-style: normal; */
+}
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('./Montserrat-SemiBold.woff2') format('woff2'),
+         url('./Montserrat-SemiBold.woff') format('woff');
+    /* font-weight: normal;
+    font-style: normal; */
+}
+
+/* //////////////////// Product info: //////////////////// */
+/* .product__info-wrapper {
+    display: flex;
+    align-items: center;
+} */
+
+.product__info-container {
+    /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 20px #00000029;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px;
+    width: 475px;
+    padding: 18px 23px 25px 28px;
+}
+
+.product__title h1 {
+    font-family: "Montserrat-SemiBold", Arial, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* Weitere Elemente hinzufügen */
+.product__description p {
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.price__container {
+    font-family: "Montserrat-SemiBold", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+.price__container .price-item--regular {
+    color: #000000;
+}
+.price__container .price-item--sale {
+    color: #1F47FF;
+}
+.product__tax {
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+}
+
+/* Auf Lager Hinzufügen!!! */
+/* .lager {
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+    color: #25A525;
+} */
+
+.button {
+    border: none;
+    border-radius: 3px;
+    height: 52px;
+    --border-offset: 0px;
+}
+.button::after {
+    border-radius: 3px;
+    opacity: 0;
+}
+.button:hover::after, .button:focus::after {
+    opacity: 1;
+}
+.product-form__buttons .product-form__submit {
+    background-color: #1F47FF;
+}
+.product-form__buttons button span {
+    font-family: "Montserrat-SemiBold", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+/* Weitere Elemente hinzufügen */
+/* .more-elements {
+    font-family: "Montserrat-Regular", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #383838;
+} */
