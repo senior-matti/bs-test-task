@@ -24,6 +24,10 @@
 
 
 /* //////////////////// Product media: //////////////////// */
+.page-width .product {
+    padding-bottom: 27px;
+}
+
 .product__media-wrapper > *:first-child > *:nth-child(2) {
     border-radius: 5px;
     overflow: hidden !important;
@@ -177,7 +181,7 @@
     color: #000000;
     margin: 0;
     position: relative;
-    bottom: 7px;            /* ///// noch anpassen! ///// */
+    bottom: 7px;
 }
 
 .product__inventory {
@@ -280,15 +284,46 @@
 
 
 
-/* Weitere Elemente hinzufügen */
-.multicolumn-card h3 {
+/* //////////////////// Multi column list: //////////////////// */
+.multicolumn > div > *:first-child {
+    width: 100%;
+}
+
+.multicolumn-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 29px;
+}
+.multicolumn-list__item {
+    max-width: 300px !important;
+}
+.multicolumn-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    width: max-content;
+}
+
+.multicolumn-card__image-wrapper {
+    width: 48px;
+    height: 48px;
+    margin: 0 !important;
+}
+
+.multicolumn-card__info {
+    padding: 0 !important;
+}
+.multicolumn-card__info h3 {
     font-family: "Montserrat-Medium", Arial, sans-serif;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0 !important;
     color: #000000;
 }
-.multicolumn-card p {
+.multicolumn-card__info p {
     font-family: "Montserrat-Regular", Arial, sans-serif;
     font-size: 16px;
     line-height: 19px;
@@ -296,17 +331,56 @@
 }
 
 @media screen and (min-width: 750px) {
-    .multicolumn-card h3 {
+    .multicolumn-card__info h3 {
         font-family: "Montserrat-Medium", Arial, sans-serif;
         font-size: 18px;
         line-height: 20px;
         letter-spacing: 0 !important;
         color: #000000;
     }
-    .multicolumn-card p {
+    .multicolumn-card__info p {
         font-family: "Montserrat-Regular", Arial, sans-serif;
         font-size: 18px;
         line-height: 22px;
         color: #383838;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .multicolumn-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 29px;
+        width: 100%;
+    }
+
+    .multicolumn-card {
+        gap: 20px;
+    }
+
+    .multicolumn-card__image-wrapper {
+        width: 57px;
+        height: 57px;
+    }
+}
+
+
+
+/* //////////////////// Description: //////////////////// */
+.rich-text__text p {
+    font-family: "Montserrat-SemiBold", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0 !important;
+}
+
+@media screen and (min-width: 990px) {
+    .rich-text__text p {
+        font-family: "Montserrat-SemiBold", Arial, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0 !important;
     }
 }
