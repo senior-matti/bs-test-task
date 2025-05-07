@@ -184,6 +184,15 @@
     bottom: 7px;
 }
 
+.product__inventory > span {
+    color: #25A525 !important;
+}
+.icon-inventory-status > *:first-child {
+    opacity: 1 !important;
+}
+.icon-inventory-status > *:nth-child(2) {
+    display: none;
+}
 .product__inventory {
     font-family: "Montserrat-Medium", Arial, sans-serif;
     font-size: 16px;
