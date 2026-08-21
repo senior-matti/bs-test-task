@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -106,7 +115,7 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "In den Warenkorb legen",
+      "add_to_cart": "In den Einkaufswagen",
       "description": "Beschreibung",
       "on_sale": "Sale",
       "quantity": {
@@ -160,9 +169,9 @@
       "choose_product_options": "Optionen für {{ product_name }} auswählen",
       "value_unavailable": "{{ option_value }} – nicht verfügbar",
       "variant_sold_out_or_unavailable": "Variante ausverkauft oder nicht verfügbar",
-      "inventory_in_stock": "Auf Lager",
-      "inventory_in_stock_show_count": "{{ quantity }} auf Lager",
-      "inventory_low_stock": "Niedriger Lagerbestand",
+      "inventory_in_stock": "Auf Lager, in 2-3 Tagen bei dir",
+      "inventory_in_stock_show_count": "{{ quantity }} auf Lager, in 2-3 Tagen bei dir",
+      "inventory_low_stock": "Auf Lager, in 2-3 Tagen bei dir",
       "inventory_low_stock_show_count": "Niedriger Lagerbestand: {{ quantity }} verbleibend",
       "inventory_out_of_stock": "Nicht vorrätig",
       "inventory_out_of_stock_continue_selling": "Auf Lager",
@@ -175,7 +184,7 @@
         "price_at_each_html": "bei {{ price }}/Stück"
       },
       "product_variants": "Produktvarianten",
-      "taxes_included": "Inkl. Steuern.",
+      "taxes_included": "inkl. MwSt.",
       "duties_included": "Inkl. Zollgebühren.",
       "duties_and_taxes_included": "Inkl. Zollgebühren und Steuern."
     },
